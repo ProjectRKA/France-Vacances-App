@@ -109,6 +109,9 @@
     <Compile Include="View\France Vacances GUI.xaml.cs">
       <DependentUpon>France Vacances GUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Login page.xaml.cs">
+      <DependentUpon>Login page.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -118,6 +121,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\France Vacances GUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Login page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
